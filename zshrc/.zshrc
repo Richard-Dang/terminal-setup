@@ -9,11 +9,8 @@ plugins=(
 )
 
 #Custom aliases
-alias hg='history|grep'
+alias gh='history -500 |grep'
 
-#Auto sguesstions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
 
 export NVM_DIR="$HOME/.nvm"
@@ -126,3 +123,5 @@ DISABLE_UPDATE_PROMPT=true
 
 #Source config file after theme
 source $ZSH/oh-my-zsh.sh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
