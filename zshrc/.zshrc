@@ -1,11 +1,13 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-export ZSH="/Users/richardda/.oh-my-zsh"
+export ZSH="/Users/richarddang/.oh-my-zsh"
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 plugins=(
   git
+  zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 #Custom aliases
@@ -123,5 +125,3 @@ DISABLE_UPDATE_PROMPT=true
 
 #Source config file after theme
 source $ZSH/oh-my-zsh.sh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
