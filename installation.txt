@@ -9,3 +9,6 @@ https://github.com/bhilburn/powerlevel9k/wiki/Show-Off-Your-Config
 
 #Powerlevel9k
 https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
+
+#Iterm2 import settings
+https://apple.stackexchange.com/questions/111534/iterm2-doesnt-read-com-googlecode-iterm2-plist
